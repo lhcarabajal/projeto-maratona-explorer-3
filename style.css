@@ -1,0 +1,67 @@
+:root {
+  font-size: 62.5%;
+
+  --ff-heading: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  background: #ffedd5;
+}
+
+.cardapio {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.cardapio header {
+  text-align: center;
+  padding: 3.2rem;
+}
+.cardapio header h1 {
+  margin-bottom: 0.4rem;
+  font-size: 2.8rem;
+}
+.cardapio p,
+h1,
+h2,
+h3,
+.description {
+  font-family: var(--ff-heading);
+}
+
+.cardapio .description {
+  opacity: 0.6;
+  line-height: 2.1rem;
+}
+.cardapio h1 span {
+  color: hsla(31, 99%, 30%, 1);
+}
+.cardapio p {
+  font-size: 1.4rem;
+}
+
+.comes-bebis ul {
+  list-style: none;
+}
+.comes-bebis .subtitle {
+  background: #fed7aa;
+  padding: 0.8rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+.comes-bebis .comes-preco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.comes-bebis .description {
+  max-width: 24rem;
+  margin-bottom: 1.6rem;
+}
